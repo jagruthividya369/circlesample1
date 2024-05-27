@@ -21,8 +21,8 @@ jobs:
           name: Push Docker image to DockerHub
           command: |
             docker login -u jagruthividya -p dckr_pat_TtPinEjpjfw7qwylnW2D5JxN1nk
-            docker tag my-app charteredcertifications/my-app
-            docker push charteredcertifications/my-app
+            docker tag my-app jagruthividya/my-app
+            docker push jagruthividya/my-app
 
 workflows:
   version: 2
